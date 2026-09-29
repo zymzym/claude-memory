@@ -11,3 +11,4 @@
 - [pmos 价格接口的可回溯范围](project_pmos_price_history.md) — 实时价 2025-01 起才有；日前价 2024 仅 116 天零星；2024 上半年 0 值口径存疑 + 两个占位日
 - [盘口表位置与档位口径](reference_market_price_board.md) — market_price_board 在 dlsc_shaanxi（非生产库）；price_level=1 是最高价档不是最优价（99.5% 单调已确证）；包=UI 列、库无此维度
 - [尖峰套利的核心是"残差"](project_spike_arb_edge.md) — T-2 判别实时价≥500；纯尖峰概率不稳健，edge=低入场价+高概率；规则 p≥0.08 且卖价≤350
+- [记忆仓库（跨机同步）](reference_memory_repo.md) — 记忆目录本身是私有 git 仓 zymzym/claude-memory，工作机↔家用机靠 push/pull 同步
