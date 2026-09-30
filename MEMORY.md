@@ -12,3 +12,4 @@
 - [盘口表位置与档位口径](reference_market_price_board.md) — market_price_board 在 dlsc_shaanxi（非生产库）；price_level=1 是最高价档不是最优价（99.5% 单调已确证）；包=UI 列、库无此维度
 - [尖峰套利的核心是"残差"](project_spike_arb_edge.md) — T-2 判别实时价≥500；纯尖峰概率不稳健，edge=低入场价+高概率；规则 p≥0.08 且卖价≤350
 - [记忆仓库（跨机同步）](reference_memory_repo.md) — 记忆目录本身是私有 git 仓 zymzym/claude-memory，工作机↔家用机靠 push/pull 同步
+- [Claude Desktop 左侧会话的存储与迁移](reference_desktop_session_store.md) — 列表=claude-code-sessions\local_*.json(576K)，正文=~/.claude/projects\<slug>\<cliSessionId>.jsonl(722M)；跨机要拷两处且 cwd 须存在
